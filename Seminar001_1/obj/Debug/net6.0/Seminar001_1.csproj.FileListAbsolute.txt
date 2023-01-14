@@ -1,0 +1,15 @@
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\bin\Debug\net6.0\Seminar001_1.exe
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\bin\Debug\net6.0\Seminar001_1.deps.json
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\bin\Debug\net6.0\Seminar001_1.runtimeconfig.json
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\bin\Debug\net6.0\Seminar001_1.dll
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\bin\Debug\net6.0\Seminar001_1.pdb
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\obj\Debug\net6.0\Seminar001_1.csproj.AssemblyReference.cache
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\obj\Debug\net6.0\Seminar001_1.GeneratedMSBuildEditorConfig.editorconfig
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\obj\Debug\net6.0\Seminar001_1.AssemblyInfoInputs.cache
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\obj\Debug\net6.0\Seminar001_1.AssemblyInfo.cs
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\obj\Debug\net6.0\Seminar001_1.csproj.CoreCompileInputs.cache
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\obj\Debug\net6.0\Seminar001_1.dll
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\obj\Debug\net6.0\refint\Seminar001_1.dll
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\obj\Debug\net6.0\Seminar001_1.pdb
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\obj\Debug\net6.0\Seminar001_1.genruntimeconfig.cache
+J:\GBУчёба\Studies\SEMINAR_C\Seminar001_1\obj\Debug\net6.0\ref\Seminar001_1.dll
