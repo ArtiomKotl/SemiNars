@@ -61,3 +61,27 @@ else
 {
     System.Console.WriteLine($"Не кратно, остаток {result}");
 }
+
+
+// Вариант
+
+Console.WriteLine("Введите первое число");
+int number1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число");
+int number2 = Convert.ToInt32(Console.ReadLine());
+
+if (number1 == 0 || number2 == 0) {
+    System.Console.WriteLine("Одно из чисел является нулём");
+    return;
+}
+
+
+int result = number1 % number2;
+
+if (result == 0)     
+    Console.WriteLine("кратно"); 
+else     
+    Console.WriteLine("не кратно, остаток " + result);
+
+
+    
