@@ -18,3 +18,10 @@ else
     maxDigit = secondDigit;
 
 Console.WriteLine("Наибольшая цифра в числе " + number + ": " + maxDigit);
+
+
+
+if(int.TryParse(Console.ReadLine(), out int number))
+    Console.WriteLine("Прочитали число: " + number);
+else
+    Console.WriteLine("Ввод неверный. Пожалуйста, введите корректное число");
