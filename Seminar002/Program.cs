@@ -43,3 +43,21 @@ int num3 = num % 10;
 Console.WriteLine($"Начальное число {num}. Результат после удаления второй цифры: {num1 + num3}");
 
 
+// 12. 
+
+
+Console.Write("Введите первое число: ");
+int numOne = Convert.ToInt32( Console.ReadLine() );  
+
+Console.Write("Введите второе число: ");
+int numTwo = Convert.ToInt32( Console.ReadLine() );
+int result = numOne % numTwo;
+
+if (result == 0)
+{
+    System.Console.WriteLine("кратно");
+}
+else
+{
+    System.Console.WriteLine($"Не кратно, остаток {result}");
+}
