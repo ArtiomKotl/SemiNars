@@ -56,3 +56,24 @@ int meth1(int arg1) {
 
 if (meth1(number1) == number2 || meth1(number2) == number1) Console.WriteLine("да");
 else Console.WriteLine("нет");
+
+// -----------// 
+
+Console.WriteLine("Введите чило от 10 до 100");
+if (int.TryParse(Console.ReadLine(), out int number))
+{
+  int firstDigit = number / 10;
+  int secondDigit = number % 10;
+
+  int maxDigit = 0;
+
+  if (firstDigit > secondDigit)
+    maxDigit = firstDigit;
+  else
+    maxDigit = secondDigit;
+
+  Console.WriteLine("Наибольшая цифра в числе " + number + ": " + maxDigit);
+}
+
+else
+  Console.WriteLine("Ввод неверный. Пожалуйста, введите корректное число");
