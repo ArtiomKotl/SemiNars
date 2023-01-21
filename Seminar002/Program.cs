@@ -3,25 +3,22 @@
 // 12-> 2 
 // 85 -> 8
 
-int number = new Random().Next(10, 100);
 
-Console.WriteLine("Сгенерировано число: " + number);
+Console.WriteLine("Введите чило от 10 до 100");
+if (int.TryParse(Console.ReadLine(), out int number))
+{
+  int firstDigit = number / 10;
+  int secondDigit = number % 10;
 
-int firstDigit = number / 10;
-int secondDigit = number % 10;
+  int maxDigit = 0;
 
-int maxDigit = 0;
-
-if (firstDigit > secondDigit)
+  if (firstDigit > secondDigit)
     maxDigit = firstDigit;
-else
+  else
     maxDigit = secondDigit;
 
-Console.WriteLine("Наибольшая цифра в числе " + number + ": " + maxDigit);
+  Console.WriteLine("Наибольшая цифра в числе " + number + ": " + maxDigit);
+}
 
-
-
-if(int.TryParse(Console.ReadLine(), out int number))
-    Console.WriteLine("Прочитали число: " + number);
 else
-    Console.WriteLine("Ввод неверный. Пожалуйста, введите корректное число");
+  Console.WriteLine("Ввод неверный. Пожалуйста, введите корректное число");
